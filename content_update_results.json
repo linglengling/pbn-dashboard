@@ -1,0 +1,674 @@
+[
+  {
+    "idx": 1,
+    "domain": "aaidudec.org",
+    "pid": 24,
+    "db": "wp_aaidudec_org",
+    "original_len": 22048,
+    "new_len": 23340,
+    "network_links": [
+      "anthonyruivivar.net",
+      "bblatinamerica.com",
+      "conadecivil.com",
+      "facturatabasco.com"
+    ],
+    "network_anchors": [
+      "anthonyruivivar.net",
+      "BET88",
+      "conadecivil.com",
+      "PHmacao"
+    ],
+    "external_brands": [
+      "ivibetguia.com",
+      "b2xbetbonusbr.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 2,
+    "domain": "anthonyruivivar.net",
+    "pid": 2109,
+    "db": "wp_anthonyruiviv",
+    "original_len": 15513,
+    "new_len": 16810,
+    "network_links": [
+      "bblatinamerica.com",
+      "conadecivil.com",
+      "facturatabasco.com",
+      "greatdrivingchallenge.com"
+    ],
+    "network_anchors": [
+      "bblatinamerica.com",
+      "JILIEVO",
+      "facturatabasco.com",
+      "1xBet"
+    ],
+    "external_brands": [
+      "ivibetreviews.com",
+      "b2xbetguia.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 3,
+    "domain": "bblatinamerica.com",
+    "pid": 1696,
+    "db": "wp_bblatinameric",
+    "original_len": 34297,
+    "new_len": 35534,
+    "network_links": [
+      "conadecivil.com",
+      "facturatabasco.com",
+      "greatdrivingchallenge.com",
+      "hkhoe.com"
+    ],
+    "network_anchors": [
+      "conadecivil.com",
+      "PHmacao",
+      "greatdrivingchallenge.com",
+      "Sabong Betting"
+    ],
+    "external_brands": [
+      "ivibetguia.com",
+      "b2xbetreview.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 4,
+    "domain": "conadecivil.com",
+    "pid": 9,
+    "db": "wp_conadecivil_c",
+    "original_len": 25671,
+    "new_len": 26788,
+    "network_links": [
+      "facturatabasco.com",
+      "greatdrivingchallenge.com",
+      "hkhoe.com",
+      "sburlrecdept.com"
+    ],
+    "network_anchors": [
+      "facturatabasco.com",
+      "1xBet",
+      "hkhoe.com",
+      "Jiliplay888"
+    ],
+    "external_brands": [
+      "ivibetreviews.com",
+      "b2xbetbonusbr.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 5,
+    "domain": "facturatabasco.com",
+    "pid": 65,
+    "db": "wp_facturatabasc",
+    "original_len": 25891,
+    "new_len": 27125,
+    "network_links": [
+      "greatdrivingchallenge.com",
+      "hkhoe.com",
+      "sburlrecdept.com",
+      "shadowdance.org"
+    ],
+    "network_anchors": [
+      "greatdrivingchallenge.com",
+      "Sabong Betting",
+      "sburlrecdept.com",
+      "90JILI"
+    ],
+    "external_brands": [
+      "ivibetguia.com",
+      "b2xbetguia.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 6,
+    "domain": "greatdrivingchallenge.com",
+    "pid": 20253,
+    "db": "wp_greatdrivingc",
+    "original_len": 39987,
+    "new_len": 41599,
+    "network_links": [
+      "hkhoe.com",
+      "sburlrecdept.com",
+      "shadowdance.org",
+      "smvhighschool.in"
+    ],
+    "network_anchors": [
+      "hkhoe.com",
+      "Jiliplay888",
+      "shadowdance.org",
+      "55BMW"
+    ],
+    "external_brands": [
+      "ivibetreviews.com",
+      "b2xbetreview.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 7,
+    "domain": "hkhoe.com",
+    "pid": 9,
+    "db": "wp_hkhoe_com",
+    "original_len": 22075,
+    "new_len": 23400,
+    "network_links": [
+      "sburlrecdept.com",
+      "shadowdance.org",
+      "smvhighschool.in",
+      "snow-design.com"
+    ],
+    "network_anchors": [
+      "sburlrecdept.com",
+      "90JILI",
+      "smvhighschool.in",
+      "SLOTVIP777"
+    ],
+    "external_brands": [
+      "ivibetguia.com",
+      "b2xbetbonusbr.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 8,
+    "domain": "sburlrecdept.com",
+    "pid": 65,
+    "db": "wp_sburlrecdept",
+    "original_len": 21490,
+    "new_len": 22728,
+    "network_links": [
+      "shadowdance.org",
+      "smvhighschool.in",
+      "snow-design.com",
+      "stepl.org"
+    ],
+    "network_anchors": [
+      "shadowdance.org",
+      "55BMW",
+      "snow-design.com",
+      "OKBET"
+    ],
+    "external_brands": [
+      "ivibetreviews.com",
+      "b2xbetguia.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 9,
+    "domain": "shadowdance.org",
+    "pid": 282,
+    "db": "wp_shadowdance_o",
+    "original_len": 14187,
+    "new_len": 15426,
+    "network_links": [
+      "smvhighschool.in",
+      "snow-design.com",
+      "stepl.org",
+      "suzanneloebl.com"
+    ],
+    "network_anchors": [
+      "smvhighschool.in",
+      "SLOTVIP777",
+      "stepl.org",
+      "Betso88"
+    ],
+    "external_brands": [
+      "ivibetguia.com",
+      "b2xbetreview.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 10,
+    "domain": "smvhighschool.in",
+    "pid": 296,
+    "db": "wp_smvhighschool",
+    "original_len": 18282,
+    "new_len": 19459,
+    "network_links": [
+      "snow-design.com",
+      "stepl.org",
+      "suzanneloebl.com",
+      "thaiasiatoday.com"
+    ],
+    "network_anchors": [
+      "snow-design.com",
+      "OKBET",
+      "suzanneloebl.com",
+      "30JILI"
+    ],
+    "external_brands": [
+      "ivibetreviews.com",
+      "b2xbetbonusbr.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 11,
+    "domain": "snow-design.com",
+    "pid": 9,
+    "db": "wp_snow-design_c",
+    "original_len": 43692,
+    "new_len": 44922,
+    "network_links": [
+      "stepl.org",
+      "suzanneloebl.com",
+      "thaiasiatoday.com",
+      "feshun.com"
+    ],
+    "network_anchors": [
+      "stepl.org",
+      "Betso88",
+      "thaiasiatoday.com",
+      "10jili"
+    ],
+    "external_brands": [
+      "ivibetguia.com",
+      "b2xbetguia.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 12,
+    "domain": "stepl.org",
+    "pid": 9,
+    "db": "wp_stepl_org",
+    "original_len": 44426,
+    "new_len": 45595,
+    "network_links": [
+      "suzanneloebl.com",
+      "thaiasiatoday.com",
+      "feshun.com",
+      "hellbenderpress.com"
+    ],
+    "network_anchors": [
+      "suzanneloebl.com",
+      "30JILI",
+      "feshun.com",
+      "9S APP"
+    ],
+    "external_brands": [
+      "ivibetreviews.com",
+      "b2xbetreview.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 13,
+    "domain": "suzanneloebl.com",
+    "pid": 11,
+    "db": "wp_suzanneloebl",
+    "original_len": 22632,
+    "new_len": 23599,
+    "network_links": [
+      "thaiasiatoday.com",
+      "feshun.com",
+      "hellbenderpress.com",
+      "innkeeperrockies.com"
+    ],
+    "network_anchors": [
+      "thaiasiatoday.com",
+      "10jili",
+      "hellbenderpress.com",
+      "Lucky777"
+    ],
+    "external_brands": [
+      "ivibetguia.com",
+      "b2xbetbonusbr.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 14,
+    "domain": "thaiasiatoday.com",
+    "pid": 25,
+    "db": "wp_thaiasiatoday",
+    "original_len": 28702,
+    "new_len": 29946,
+    "network_links": [
+      "feshun.com",
+      "hellbenderpress.com",
+      "innkeeperrockies.com",
+      "rogalevich.org"
+    ],
+    "network_anchors": [
+      "feshun.com",
+      "9S APP",
+      "innkeeperrockies.com",
+      "Million88"
+    ],
+    "external_brands": [
+      "ivibetreviews.com",
+      "b2xbetguia.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 15,
+    "domain": "feshun.com",
+    "pid": 65,
+    "db": "wp_feshun_com",
+    "original_len": 29441,
+    "new_len": 30573,
+    "network_links": [
+      "hellbenderpress.com",
+      "innkeeperrockies.com",
+      "rogalevich.org",
+      "j-core.biz"
+    ],
+    "network_anchors": [
+      "hellbenderpress.com",
+      "Lucky777",
+      "rogalevich.org",
+      "55BMW"
+    ],
+    "external_brands": [
+      "ivibetguia.com",
+      "b2xbetreview.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 16,
+    "domain": "hellbenderpress.com",
+    "pid": 21,
+    "db": "wp_hellbenderpre",
+    "original_len": 71664,
+    "new_len": 72908,
+    "network_links": [
+      "innkeeperrockies.com",
+      "rogalevich.org",
+      "j-core.biz",
+      "kvdevelopers.com"
+    ],
+    "network_anchors": [
+      "innkeeperrockies.com",
+      "Million88",
+      "j-core.biz",
+      "63 Jili"
+    ],
+    "external_brands": [
+      "ivibetreviews.com",
+      "b2xbetbonusbr.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 17,
+    "domain": "innkeeperrockies.com",
+    "pid": 9,
+    "db": "wp_innkeeperrock",
+    "original_len": 65991,
+    "new_len": 67187,
+    "network_links": [
+      "rogalevich.org",
+      "j-core.biz",
+      "kvdevelopers.com",
+      "benscarpage.com"
+    ],
+    "network_anchors": [
+      "rogalevich.org",
+      "55BMW",
+      "kvdevelopers.com",
+      "EEBET"
+    ],
+    "external_brands": [
+      "ivibetguia.com",
+      "b2xbetguia.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 18,
+    "domain": "rogalevich.org",
+    "pid": 1696,
+    "db": "wp_rogalevich_or",
+    "original_len": 104819,
+    "new_len": 106024,
+    "network_links": [
+      "j-core.biz",
+      "kvdevelopers.com",
+      "benscarpage.com",
+      "kylehendersonmusic.com"
+    ],
+    "network_anchors": [
+      "j-core.biz",
+      "63 Jili",
+      "benscarpage.com",
+      "JILI8998"
+    ],
+    "external_brands": [
+      "ivibetreviews.com",
+      "b2xbetreview.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 19,
+    "domain": "j-core.biz",
+    "pid": 341,
+    "db": "wp_j-core_biz",
+    "original_len": 11388,
+    "new_len": 12432,
+    "network_links": [
+      "kvdevelopers.com",
+      "benscarpage.com",
+      "kylehendersonmusic.com",
+      "respectablyfrench.com"
+    ],
+    "network_anchors": [
+      "kvdevelopers.com",
+      "EEBET",
+      "kylehendersonmusic.com",
+      "10JILI"
+    ],
+    "external_brands": [
+      "ivibetguia.com",
+      "b2xbetbonusbr.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 20,
+    "domain": "kvdevelopers.com",
+    "pid": 554,
+    "db": "wp_kvdevelopers",
+    "original_len": 16225,
+    "new_len": 17433,
+    "network_links": [
+      "benscarpage.com",
+      "kylehendersonmusic.com",
+      "respectablyfrench.com",
+      "sougicocoro.com"
+    ],
+    "network_anchors": [
+      "benscarpage.com",
+      "JILI8998",
+      "respectablyfrench.com",
+      "12BET"
+    ],
+    "external_brands": [
+      "ivibetreviews.com",
+      "b2xbetguia.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 21,
+    "domain": "benscarpage.com",
+    "pid": 11,
+    "db": "wp_benscarpage_c",
+    "original_len": 57867,
+    "new_len": 59199,
+    "network_links": [
+      "kylehendersonmusic.com",
+      "respectablyfrench.com",
+      "sougicocoro.com",
+      "aaidudec.org"
+    ],
+    "network_anchors": [
+      "kylehendersonmusic.com",
+      "10JILI",
+      "sougicocoro.com",
+      "9SAPP"
+    ],
+    "external_brands": [
+      "ivibetguia.com",
+      "b2xbetreview.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 22,
+    "domain": "kylehendersonmusic.com",
+    "pid": 85,
+    "db": "wp_kylehenderson",
+    "original_len": 31018,
+    "new_len": 32340,
+    "network_links": [
+      "respectablyfrench.com",
+      "sougicocoro.com",
+      "aaidudec.org",
+      "anthonyruivivar.net"
+    ],
+    "network_anchors": [
+      "respectablyfrench.com",
+      "12BET",
+      "aaidudec.org",
+      "Jiliasia"
+    ],
+    "external_brands": [
+      "ivibetreviews.com",
+      "b2xbetbonusbr.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 23,
+    "domain": "respectablyfrench.com",
+    "pid": 11,
+    "db": "wp_respectablyfr",
+    "original_len": 26743,
+    "new_len": 28063,
+    "network_links": [
+      "sougicocoro.com",
+      "aaidudec.org",
+      "anthonyruivivar.net",
+      "bblatinamerica.com"
+    ],
+    "network_anchors": [
+      "sougicocoro.com",
+      "9SAPP",
+      "anthonyruivivar.net",
+      "BET88"
+    ],
+    "external_brands": [
+      "ivibetguia.com",
+      "b2xbetguia.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "status": "success"
+  },
+  {
+    "idx": 24,
+    "domain": "sougicocoro.com",
+    "pid": 3040,
+    "db": "wp_sougicocoro_c",
+    "original_len": 17562,
+    "new_len": 18879,
+    "network_links": [
+      "aaidudec.org",
+      "anthonyruivivar.net",
+      "bblatinamerica.com",
+      "conadecivil.com"
+    ],
+    "network_anchors": [
+      "aaidudec.org",
+      "Jiliasia",
+      "bblatinamerica.com",
+      "JILIEVO"
+    ],
+    "external_brands": [
+      "ivibetreviews.com",
+      "b2xbetreview.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "status": "success"
+  }
+]

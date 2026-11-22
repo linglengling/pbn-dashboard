@@ -1,0 +1,231 @@
+/* App-level overrides — imported by App.jsx */
+
+.selected-row {
+    background-color: rgba(34, 211, 238, 0.04) !important;
+}
+
+.selected-row td {
+    border-color: rgba(34, 211, 238, 0.2) !important;
+}
+
+/* Custom Checkbox Styling */
+input[type="checkbox"] {
+    cursor: pointer;
+    accent-color: #22d3ee;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border: 1px solid #475569;
+    background-color: #0f172a;
+}
+
+/* Slide Down Animation */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Multi-select styling */
+.form-select[multiple] {
+    padding: 8px 12px;
+}
+
+.form-select[multiple] option {
+    padding: 6px 10px;
+    margin-bottom: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-select[multiple] option:checked {
+    background-color: rgba(34, 211, 238, 0.2);
+    color: #22d3ee;
+}
+
+/* Quill Editor Premium Dark Theme overrides */
+.ql-toolbar.ql-snow {
+    border-color: #334155 !important;
+    background-color: #1e293b !important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.ql-container.ql-snow {
+    border-color: #334155 !important;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #0f172a;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.ql-editor {
+    color: #f8fafc;
+}
+
+.ql-editor.ql-blank::before {
+    color: #64748b !important;
+    font-style: normal;
+}
+
+.ql-snow .ql-stroke {
+    stroke: #94a3b8 !important;
+}
+
+.ql-snow .ql-fill {
+    fill: #94a3b8 !important;
+}
+
+.ql-snow .ql-picker {
+    color: #94a3b8 !important;
+}
+
+.ql-snow .ql-picker-options {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+}
+
+.ql-snow .ql-picker-item:hover, .ql-snow .ql-picker-label:hover {
+    color: #22d3ee !important;
+}
+
+/* Backlinks Count Badge Hover Tooltip */
+.backlink-count-badge {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.backlink-count-badge:hover {
+    z-index: 9999;
+}
+
+.backlink-count-badge:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    bottom: 130%;
+    right: 0;
+    transform: translateY(6px);
+    background-color: #0f172a;
+    border: 1px solid #38bdf8;
+    color: #fff;
+    padding: 14px 18px;
+    border-radius: 12px;
+    z-index: 99999;
+    opacity: 0;
+    transition: opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.2s;
+    box-shadow: 0 20px 45px -5px rgba(0, 0, 0, 0.9), 0 0 20px rgba(56, 189, 248, 0.25);
+    min-width: 480px;
+    max-width: 650px;
+    max-height: 380px;
+    overflow-y: auto;
+    pointer-events: auto;
+    backdrop-filter: blur(12px);
+}
+
+/* Tooltip positioned below for top rows to prevent top clipping */
+.tooltip-text.tooltip-down {
+    bottom: auto;
+    top: 130%;
+}
+
+.tooltip-text::-webkit-scrollbar {
+    width: 6px;
+}
+/* Login Screen Glassmorphism Styling */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    background: radial-gradient(circle at 50% 30%, #1e1b4b 0%, #0f172a 70%, #020617 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+.login-card {
+    background: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7), 0 0 30px rgba(56, 189, 248, 0.15);
+    border-radius: 20px;
+    padding: 40px 36px;
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.login-logo {
+    width: 60px;
+    height: 60px;
+    background: rgba(56, 189, 248, 0.1);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px auto;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+}
+
+.login-header h2 {
+    color: #f8fafc;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 6px 0;
+    letter-spacing: 0.5px;
+}
+
+.login-header p {
+    color: #94a3b8;
+    font-size: 13px;
+    margin: 0;
+}
+
+.login-error {
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    color: #f87171;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-footer {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 12px;
+    color: #64748b;
+}
+
+.login-footer code {
+    background: rgba(56, 189, 248, 0.1);
+    color: #38bdf8;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+

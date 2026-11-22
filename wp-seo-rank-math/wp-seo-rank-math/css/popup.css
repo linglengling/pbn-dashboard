@@ -1,0 +1,30 @@
+#nwm-popup {
+    position: fixed;
+    z-index: 9999;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    display: none;
+    max-width: 300px;
+    cursor: default;
+}
+
+#nwm-popup img {
+    width: 100%;
+    height: auto;
+}
+
+#nwm-popup .nwm-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+.nwm-bottom { bottom: 20px; right: 20px; }
+.nwm-top { top: 20px; right: 20px; }
+.nwm-left { bottom: 20px; left: 20px; }
+.nwm-right { bottom: 20px; right: 20px; }

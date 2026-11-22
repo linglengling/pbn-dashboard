@@ -1,0 +1,5 @@
+{
+    "matomo_url": "tk1.keodinh.net",
+    "matomo_site_id": 62,
+    "matomo_script": "            <!-- NWM Matomo -->\r\n            <script>\r\n                var _paq = window._paq = window._paq || [];\r\n                _paq.push(['trackPageView']);\r\n                _paq.push(['enableLinkTracking']);\r\n                (function() {\r\n                    var u=\"\/\/tk1.keodinh.net\/\";\r\n                    _paq.push(['setTrackerUrl', u+'matomo.php']);\r\n                    _paq.push(['setSiteId', '62']);\r\n                    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\r\n                    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\r\n                })();\r\n            <\/script>\r\n            <!-- End NWM Matomo Code -->\r\n            "
+}

@@ -1,0 +1,1822 @@
+[
+  {
+    "src_domain": "aaidudec.org",
+    "href": "https://eebetcs.com/",
+    "anchor": "EEBET",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "aaidudec.org",
+    "href": "http://jiliasiabet.net",
+    "anchor": "Jiliasia",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "aaidudec.org",
+    "href": "http://bet88login.org",
+    "anchor": "Bet88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "aaidudec.org",
+    "href": "http://vipph-casino.net",
+    "anchor": "VIPPH",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "aaidudec.org",
+    "href": "https://poultrybookstore.com",
+    "anchor": "Jilievo",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "aaidudec.org",
+    "href": "https://phmacaoclub.com/",
+    "anchor": "Phamacao",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "aaidudec.org",
+    "href": "https://gamebai.x8.mobi",
+    "anchor": "X8 Club",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "aaidudec.org",
+    "href": "https://kclub.vc/",
+    "anchor": "KCLUB,",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "anthonyruivivar.net",
+    "href": "http://eebet63.com",
+    "anchor": "EEBET",
+    "status": "request_failed",
+    "error": "timed out"
+  },
+  {
+    "src_domain": "anthonyruivivar.net",
+    "href": "http://9sapp.net",
+    "anchor": "9SAPPS",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "anthonyruivivar.net",
+    "href": "http://bet88login.org",
+    "anchor": "Bet88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "anthonyruivivar.net",
+    "href": "http://bet88login.org",
+    "anchor": "VIPPH",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "anthonyruivivar.net",
+    "href": "https://poultrybookstore.com",
+    "anchor": "Jilievo",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "anthonyruivivar.net",
+    "href": "http://1xbetph.org",
+    "anchor": "1XBET",
+    "status": "dns_dead",
+    "error": "[Errno -5] No address associated with hostname"
+  },
+  {
+    "src_domain": "anthonyruivivar.net",
+    "href": "https://stroysnb.ru/",
+    "anchor": "азино мобильный",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "bblatinamerica.com",
+    "href": "https://vipph-casino.net",
+    "anchor": "vipph",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "bblatinamerica.com",
+    "href": "https://poultrybookstore.com",
+    "anchor": "JILIEVO",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "bblatinamerica.com",
+    "href": "https://1xbetph.org",
+    "anchor": "1xbet",
+    "status": "dns_dead",
+    "error": "[Errno -5] No address associated with hostname"
+  },
+  {
+    "src_domain": "bblatinamerica.com",
+    "href": "https://phmacaoclub.com",
+    "anchor": "phmacaoclub.com",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "bblatinamerica.com",
+    "href": "https://9apps.tips",
+    "anchor": "9apps.tips",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "bblatinamerica.com",
+    "href": "https://gamebai.x8.mobi/",
+    "anchor": "X8 Club",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "bblatinamerica.com",
+    "href": "http://eebet63.com",
+    "anchor": "EEBET",
+    "status": "request_failed",
+    "error": "timed out"
+  },
+  {
+    "src_domain": "conadecivil.com",
+    "href": "http://eebet63.com",
+    "anchor": "EEBET",
+    "status": "request_failed",
+    "error": "timed out"
+  },
+  {
+    "src_domain": "conadecivil.com",
+    "href": "https://9apps.tips",
+    "anchor": "9sapps",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "conadecivil.com",
+    "href": "https://747liveh.com",
+    "anchor": "747Live",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "conadecivil.com",
+    "href": "https://1xbetph.org",
+    "anchor": "1xbet",
+    "status": "dns_dead",
+    "error": "[Errno -5] No address associated with hostname"
+  },
+  {
+    "src_domain": "conadecivil.com",
+    "href": "https://sabongbetting.com",
+    "anchor": "Sabong betting",
+    "status": "request_failed",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "src_domain": "conadecivil.com",
+    "href": "https://gamebai.x8.mobi/",
+    "anchor": "X8 Club",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "conadecivil.com",
+    "href": "https://phmacaoclub.com",
+    "anchor": "Phmacao",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "facturatabasco.com",
+    "href": "https://phmacaoclub.com/",
+    "anchor": "PHmacao",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "facturatabasco.com",
+    "href": "http://eebet63.com",
+    "anchor": "EEBET",
+    "status": "request_failed",
+    "error": "timed out"
+  },
+  {
+    "src_domain": "facturatabasco.com",
+    "href": "http://9apps.tips",
+    "anchor": "9SAPP",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "facturatabasco.com",
+    "href": "http://1xbetph.org",
+    "anchor": "1xbet",
+    "status": "dns_dead",
+    "error": "[Errno -5] No address associated with hostname"
+  },
+  {
+    "src_domain": "facturatabasco.com",
+    "href": "http://sabongbetting.com",
+    "anchor": "sabong betting",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "facturatabasco.com",
+    "href": "https://747liveh.com",
+    "anchor": "747Live",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "facturatabasco.com",
+    "href": "http://8k8onlinecasino.net",
+    "anchor": "8K8",
+    "status": "http_403",
+    "code": 403
+  },
+  {
+    "src_domain": "facturatabasco.com",
+    "href": "https://rokada-spb.ru/",
+    "anchor": "https://rokada-spb.ru/",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "facturatabasco.com",
+    "href": "https://www.gecem.com.tr/",
+    "anchor": "Mostbet",
+    "status": "http_403",
+    "code": 403
+  },
+  {
+    "src_domain": "facturatabasco.com",
+    "href": "https://znaki.fm/nl/gokken/top-online-casino/",
+    "anchor": "beste online casino nederland",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "facturatabasco.com",
+    "href": "https://mostbetazgiris.com/",
+    "anchor": "Mostbet",
+    "status": "http_403",
+    "code": 403
+  },
+  {
+    "src_domain": "facturatabasco.com",
+    "href": "https://dbkontrast.ru/",
+    "anchor": "адмирал х ру",
+    "status": "http_403",
+    "code": 403
+  },
+  {
+    "src_domain": "facturatabasco.com",
+    "href": "https://mostbet-bd2024.com/",
+    "anchor": "মোস্টবেট",
+    "status": "http_403",
+    "code": 403
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://1xbetph.org/go/9sapp",
+    "anchor": "1xbet Login",
+    "status": "dns_dead",
+    "error": "[Errno -5] No address associated with hostname"
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://1xbetph.org/go/9sapp",
+    "anchor": "1xbet App",
+    "status": "dns_dead",
+    "error": "[Errno -5] No address associated with hostname"
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://1xbetph.org/",
+    "anchor": "1xBet website",
+    "status": "dns_dead",
+    "error": "[Errno -5] No address associated with hostname"
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://1xbetph.org/1xbet-registration-philippines/",
+    "anchor": "Register 1XBET",
+    "status": "dns_dead",
+    "error": "[Errno -5] No address associated with hostname"
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://1xbetph.org/how-to-deposit-1xbet-philippines/",
+    "anchor": "Deposit 1XBET",
+    "status": "dns_dead",
+    "error": "[Errno -5] No address associated with hostname"
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://1xbetph.org/withdrawal-1xbet/",
+    "anchor": "Withdrawal 1XBET",
+    "status": "dns_dead",
+    "error": "[Errno -5] No address associated with hostname"
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://1xbetph.org/download-1xbet-app/",
+    "anchor": "1XBET App",
+    "status": "dns_dead",
+    "error": "[Errno -5] No address associated with hostname"
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://1xbetph.org/go/9sapp",
+    "anchor": "1xBet Login",
+    "status": "dns_dead",
+    "error": "[Errno -5] No address associated with hostname"
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://1xbetph.org/promotions-1xbet/",
+    "anchor": "1xBet Promo Code",
+    "status": "dns_dead",
+    "error": "[Errno -5] No address associated with hostname"
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "http://eebet63.com",
+    "anchor": "EEBET",
+    "status": "request_failed",
+    "error": "timed out"
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://billmandel.net",
+    "anchor": "Casino Plus",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://sabongbetting.com",
+    "anchor": "Sabongbetting",
+    "status": "request_failed",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "http://747liveh.com",
+    "anchor": "747live",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://fb777live.info",
+    "anchor": "FB777",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://8k8onlinecasino.net",
+    "anchor": "8k8",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://vb88.win",
+    "anchor": "VB88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://ball88.to",
+    "anchor": "Ball88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://x8.club",
+    "anchor": "X8 Club",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://min88.com",
+    "anchor": "Min88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://hd88.in",
+    "anchor": "HD88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "greatdrivingchallenge.com",
+    "href": "https://3bet.so",
+    "anchor": "3Bet",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hkhoe.com",
+    "href": "https://eebetcs.com/",
+    "anchor": "EEBET",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "hkhoe.com",
+    "href": "https://747liveh.com",
+    "anchor": "747Live",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hkhoe.com",
+    "href": "http://8k8onlinecasino.net",
+    "anchor": "8k8",
+    "status": "http_403",
+    "code": 403
+  },
+  {
+    "src_domain": "hkhoe.com",
+    "href": "http://fb777live.info",
+    "anchor": "FB777",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hkhoe.com",
+    "href": "https://billmandel.net",
+    "anchor": "Casino Plus",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hkhoe.com",
+    "href": "http://777slotscasino.net",
+    "anchor": "777Slots",
+    "status": "http_403",
+    "code": 403
+  },
+  {
+    "src_domain": "sburlrecdept.com",
+    "href": "http://90jiliph.net",
+    "anchor": "90Jili",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "sburlrecdept.com",
+    "href": "https://okbet-casino.net",
+    "anchor": "Okbet",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "sburlrecdept.com",
+    "href": "http://saintsofsomewhere.com",
+    "anchor": "55BMW",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "sburlrecdept.com",
+    "href": "http://slotvip777.net",
+    "anchor": "SlotVIP777",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "sburlrecdept.com",
+    "href": "http://jilihot.live",
+    "anchor": "Jilihot",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "sburlrecdept.com",
+    "href": "https://fb88ac.com/",
+    "anchor": "fb88",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "sburlrecdept.com",
+    "href": "https://eebetcs.com/",
+    "anchor": "EEBET Casino",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "shadowdance.org",
+    "href": "https://90jiliph.net/go/register",
+    "anchor": "Link to 90JILI",
+    "status": "http_403",
+    "code": 403
+  },
+  {
+    "src_domain": "shadowdance.org",
+    "href": "https://90jiliph.net/",
+    "anchor": "90JILI",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "shadowdance.org",
+    "href": "https://eebetcs.com/",
+    "anchor": "EEBET Casino",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "shadowdance.org",
+    "href": "https://gamebai.x8.club/",
+    "anchor": "X8",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "shadowdance.org",
+    "href": "https://saintsofsomewhere.com",
+    "anchor": "55BMW",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "shadowdance.org",
+    "href": "https://slotvip777.net",
+    "anchor": "SlotVIP",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "shadowdance.org",
+    "href": "https://jilihot.live",
+    "anchor": "Jilihot",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "shadowdance.org",
+    "href": "https://okbet-casino.net",
+    "anchor": "OKBet",
+    "status": "request_failed",
+    "error": "<urlopen error _ssl.c:990: The handshake operation timed out>"
+  },
+  {
+    "src_domain": "shadowdance.org",
+    "href": "https://energetika.us.com/",
+    "anchor": "X8",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "shadowdance.org",
+    "href": "https://ball88.in/",
+    "anchor": "BALL88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "shadowdance.org",
+    "href": "https://betso88club.net",
+    "anchor": "Betso88",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "smvhighschool.in",
+    "href": "https://saintsofsomewhere.com/",
+    "anchor": "55bmw slot casino",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "smvhighschool.in",
+    "href": "https://eebetcs.com/",
+    "anchor": "EEBET",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "smvhighschool.in",
+    "href": "https://slotvip777.net",
+    "anchor": "SlotVIP777",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "smvhighschool.in",
+    "href": "https://jilihot.live",
+    "anchor": "Jilihot",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "smvhighschool.in",
+    "href": "https://okbetting.net",
+    "anchor": "OKBetting",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "smvhighschool.in",
+    "href": "https://betso88club.net",
+    "anchor": "Betso88Club",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "smvhighschool.in",
+    "href": "https://saintsofsomewhere.com/",
+    "anchor": "website 55BMW",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "smvhighschool.in",
+    "href": "https://saintsofsomewhere.com/",
+    "anchor": "55bmw pro",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "snow-design.com",
+    "href": "https://slotvip777.net/",
+    "anchor": "SlOTVIP777",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "snow-design.com",
+    "href": "https://slotvip777.net/register",
+    "anchor": "Register",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "snow-design.com",
+    "href": "https://slotvip777.net/login",
+    "anchor": "Login",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "snow-design.com",
+    "href": "https://eebetwin.com/",
+    "anchor": "EEBET",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "snow-design.com",
+    "href": "https://jilihot.live",
+    "anchor": "jilihot.live",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "snow-design.com",
+    "href": "https://okbet-casino.net",
+    "anchor": "Okbet",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "snow-design.com",
+    "href": "https://betso88club.net",
+    "anchor": "betso88club.net",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "snow-design.com",
+    "href": "https://30jiliph.cc",
+    "anchor": "30jiliph.cc",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "snow-design.com",
+    "href": "https://9sapp.net",
+    "anchor": "Ph777",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "stepl.org",
+    "href": "https://ph777c.net",
+    "anchor": "ph777c",
+    "status": "request_failed",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "src_domain": "stepl.org",
+    "href": "https://9sapp.net",
+    "anchor": "9SApp",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "stepl.org",
+    "href": "https://nice88.live",
+    "anchor": "nice88",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "stepl.org",
+    "href": "http://betso88club.net",
+    "anchor": "betso88club",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "stepl.org",
+    "href": "http://30jiliph.cc",
+    "anchor": "30jiliph",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "stepl.org",
+    "href": "http://ph777c.net",
+    "anchor": "ph777c",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "stepl.org",
+    "href": "http://phlove777.com",
+    "anchor": "Phlove777",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "stepl.org",
+    "href": "http://nice88.live",
+    "anchor": "Nice88",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "suzanneloebl.com",
+    "href": "https://betso88club.net/go/playnow",
+    "anchor": "PLAY NOW",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "suzanneloebl.com",
+    "href": "https://betso88club.net/go/playnow",
+    "anchor": "PLAY NOW",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "suzanneloebl.com",
+    "href": "https://betso88club.net/go/playnow",
+    "anchor": "PLAY NOW",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "suzanneloebl.com",
+    "href": "https://betso88club.net/go/playnow",
+    "anchor": "PLAY NOW",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "suzanneloebl.com",
+    "href": "https://betso88club.net/go/playnow",
+    "anchor": "PLAY NOW",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "suzanneloebl.com",
+    "href": "https://betso88club.net/go/playnow",
+    "anchor": "PLAY NOW",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "suzanneloebl.com",
+    "href": "https://eebetwin.com/",
+    "anchor": "EEBET Casino",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "suzanneloebl.com",
+    "href": "https://30jiliph.cc",
+    "anchor": "30Jili",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "suzanneloebl.com",
+    "href": "https://ph777c.net",
+    "anchor": "Ph777",
+    "status": "request_failed",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "src_domain": "suzanneloebl.com",
+    "href": "https://nice88.live",
+    "anchor": "Nice88",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "suzanneloebl.com",
+    "href": "https://phlove777.com",
+    "anchor": "Phlove",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "suzanneloebl.com",
+    "href": "https://phwin777.cc",
+    "anchor": "Phwin",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "thaiasiatoday.com",
+    "href": "https://30jiliph.cc/",
+    "anchor": "30 jili bet",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "thaiasiatoday.com",
+    "href": "https://30jiliph.cc/go/login",
+    "anchor": "Login",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "thaiasiatoday.com",
+    "href": "https://30jiliph.cc/go/register",
+    "anchor": "Register",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "thaiasiatoday.com",
+    "href": "https://ph777c.net",
+    "anchor": "ph777",
+    "status": "request_failed",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "src_domain": "thaiasiatoday.com",
+    "href": "https://nice88.live",
+    "anchor": "nice88",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "thaiasiatoday.com",
+    "href": "https://phlove777.com",
+    "anchor": "phlove777",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "thaiasiatoday.com",
+    "href": "https://bwinph777.cc",
+    "anchor": "Bwinph",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "thaiasiatoday.com",
+    "href": "https://phwin777.cc",
+    "anchor": "phwin777",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "thaiasiatoday.com",
+    "href": "https://30jiliph.cc/",
+    "anchor": "30 jili com",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "thaiasiatoday.com",
+    "href": "https://eebetwin.com/",
+    "anchor": "EEBET Casino",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://10jiligames.com/",
+    "anchor": "https://10jiligames.com/",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://eebetwin.com/",
+    "anchor": "EEBET Casino",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://royalclub8.net",
+    "anchor": "RoyalClub8",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://onlinecasino247.live",
+    "anchor": "OnlineCasino247",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://lucky777slots.org",
+    "anchor": "Lucky777Slots",
+    "status": "request_failed",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://90jilivip.bet",
+    "anchor": "90Jili",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://bom888.live/",
+    "anchor": "Bom88",
+    "status": "http_500",
+    "code": 500
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://peso888.fans",
+    "anchor": "Peso888",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://10jiligames.com/",
+    "anchor": "https://10Jiligames.com/",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://live777.me",
+    "anchor": "live777",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://747casino.club/",
+    "anchor": "747casino",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://777slotscasino.live",
+    "anchor": "777slotscasino",
+    "status": "http_401",
+    "code": 401
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://555bmw.live",
+    "anchor": "555bmw",
+    "status": "request_failed",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://vb88.win",
+    "anchor": "VB88.win",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://ball88.to",
+    "anchor": "Ball88.to",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://x8.club",
+    "anchor": "X8.club",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://min88.com",
+    "anchor": "Min88.com",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://hd88.in",
+    "anchor": "HD88.in",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "feshun.com",
+    "href": "https://3bet.so",
+    "anchor": "3bet.so",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "http://9sapp.net/go/login",
+    "anchor": "Login",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "http://9sapp.net/go/register",
+    "anchor": "Register",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "http://9sapp.net/go/download",
+    "anchor": "Download",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://www.eebet.com/",
+    "anchor": "EEBET",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://lucky777slots.org",
+    "anchor": "lucky777slots",
+    "status": "request_failed",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://90jilivip.bet",
+    "anchor": "90jilivip",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://ekonurhuda.com",
+    "anchor": "Jiliplay",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://peso888.fans",
+    "anchor": "peso888",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://million88.net",
+    "anchor": "million88",
+    "status": "http_403",
+    "code": 403
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register/",
+    "anchor": "Register 9s App",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register",
+    "anchor": "Register BK8",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register",
+    "anchor": "Register Jiliko",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register",
+    "anchor": "Register OKbet",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register",
+    "anchor": "Register Jilicc",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register/",
+    "anchor": "Register 365",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register",
+    "anchor": "Register Lucky Cola",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register",
+    "anchor": "Register 747 casino",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register/",
+    "anchor": "Register ssbet77",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register/",
+    "anchor": "Register GGbet",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register/",
+    "anchor": "Register Okada",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register/",
+    "anchor": "Register Galaxy betting",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register/",
+    "anchor": "Register Stake",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register/",
+    "anchor": "Register Panalobet",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register/",
+    "anchor": "Register 377 Jili",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register/",
+    "anchor": "Register FB777",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register/",
+    "anchor": "Register 777 casino",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "hellbenderpress.com",
+    "href": "https://9sapp.net/go/register/",
+    "anchor": "Register 1xbet",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "innkeeperrockies.com",
+    "href": "https://lucky777slots.org/",
+    "anchor": "Lucky 777",
+    "status": "request_failed",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "src_domain": "innkeeperrockies.com",
+    "href": "https://lucky777slots.org/go/login",
+    "anchor": "Login",
+    "status": "request_failed",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "src_domain": "innkeeperrockies.com",
+    "href": "https://lucky777slots.org/go/register",
+    "anchor": "Register",
+    "status": "request_failed",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "src_domain": "innkeeperrockies.com",
+    "href": "https://90jilivip.bet",
+    "anchor": "90jilivip.bet",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "innkeeperrockies.com",
+    "href": "https://peso888.fans",
+    "anchor": "peso888.fans",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "innkeeperrockies.com",
+    "href": "https://million88.net",
+    "anchor": "million88.net",
+    "status": "http_403",
+    "code": 403
+  },
+  {
+    "src_domain": "innkeeperrockies.com",
+    "href": "https://jiliplay8888.live",
+    "anchor": "jiliplay8888.live",
+    "status": "http_401",
+    "code": 401
+  },
+  {
+    "src_domain": "innkeeperrockies.com",
+    "href": "https://9sapp.net",
+    "anchor": "9sapp.net",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://a.yli.life/9seo",
+    "anchor": "REGISTER ✍",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/download-app",
+    "anchor": "DOWNLOAD APP",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://eebetph.com/",
+    "anchor": "EEBET",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://live777.me",
+    "anchor": "live777",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://747casino.uk.com",
+    "anchor": "747casino",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://x8.club",
+    "anchor": "X8",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://gambling-affiliate24.com",
+    "anchor": "777slotscasino",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://vb88.tv/",
+    "anchor": "VB88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://tic88.to",
+    "anchor": "Tic88",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "http://9sapp2.net",
+    "anchor": "9s app",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://browardschoolsconserve.com",
+    "anchor": "555bmw",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://vb88bet.com/",
+    "anchor": "VB88",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://ga889.com/",
+    "anchor": "GA88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://bom88.biz/",
+    "anchor": "BOM88",
+    "status": "http_500",
+    "code": 500
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://ralphlauren.ru.com/",
+    "anchor": "Hitclub",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/register",
+    "anchor": "Register",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/play",
+    "anchor": "Play",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/play",
+    "anchor": "Play",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/play",
+    "anchor": "Play",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/play",
+    "anchor": "Play",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/play",
+    "anchor": "Play",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/play",
+    "anchor": "Play",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/play",
+    "anchor": "HOTGAME",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/play",
+    "anchor": "FEATURED GAMES",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/play",
+    "anchor": "NEW GAME",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/register",
+    "anchor": "Register",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/register",
+    "anchor": "Deposit",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/register",
+    "anchor": "Withdrawal",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/register",
+    "anchor": "Promotion",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "rogalevich.org",
+    "href": "https://million88.net/go/download-app",
+    "anchor": "Download App",
+    "status": "http_404",
+    "code": 404
+  },
+  {
+    "src_domain": "j-core.biz",
+    "href": "https://www.eebet.com/",
+    "anchor": "EEBET",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "j-core.biz",
+    "href": "https://bingoplus247.com",
+    "anchor": "bingoplus247,",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "j-core.biz",
+    "href": "https://pwinph777.net",
+    "anchor": "pwinph777",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "j-core.biz",
+    "href": "https://w500ph.net",
+    "anchor": "w500ph",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "j-core.biz",
+    "href": "https://Luck9.fans",
+    "anchor": "Luck9",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "j-core.biz",
+    "href": "https://masaya365.club",
+    "anchor": "masaya365",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "kvdevelopers.com",
+    "href": "https://jili63.net/",
+    "anchor": "63 JIli",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "kvdevelopers.com",
+    "href": "http://lodi646ph.net",
+    "anchor": "Lodi 646",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "kvdevelopers.com",
+    "href": "https://luckycola7.top",
+    "anchor": "Lucky Cola",
+    "status": "dns_dead",
+    "error": "[Errno -2] Name or service not known"
+  },
+  {
+    "src_domain": "kvdevelopers.com",
+    "href": "http://casinoguru.cc",
+    "anchor": "Casino Guru",
+    "status": "request_failed",
+    "error": "timed out"
+  },
+  {
+    "src_domain": "kvdevelopers.com",
+    "href": "https://mygtv.net",
+    "anchor": "747Live",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "kvdevelopers.com",
+    "href": "https://gamebai.x8.mobi",
+    "anchor": "X8",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "kvdevelopers.com",
+    "href": "https://nice88luckyjili.com",
+    "anchor": "Nice88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "kvdevelopers.com",
+    "href": "https://jili63.net/",
+    "anchor": "63 Jili",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "kvdevelopers.com",
+    "href": "https://jili63.net/",
+    "anchor": "bookmaker's homepage",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "kvdevelopers.com",
+    "href": "https://casinoslovenija10.com/no-deposit-bonus-slovenia/",
+    "anchor": "casinoslovenija10.com/no-deposit-bonus-slovenia/",
+    "status": "http_403",
+    "code": 403
+  },
+  {
+    "src_domain": "kvdevelopers.com",
+    "href": "https://casinophilippines10.com/gcash/",
+    "anchor": "all casinos that accept Gcash",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "kylehendersonmusic.com",
+    "href": "http://eebetph.com",
+    "anchor": "EEBET",
+    "status": "request_failed",
+    "error": "timed out"
+  },
+  {
+    "src_domain": "kylehendersonmusic.com",
+    "href": "https://jiligem.live/",
+    "anchor": "Jiligem",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "kylehendersonmusic.com",
+    "href": "https://poppy-playtime.cc",
+    "anchor": "Playtime",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "kylehendersonmusic.com",
+    "href": "https://mwcash.cc/",
+    "anchor": "MWCash",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "kylehendersonmusic.com",
+    "href": "https://fb777pro.net",
+    "anchor": "Fb777",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "kylehendersonmusic.com",
+    "href": "https://fb777link.net",
+    "anchor": "Fb777",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "kylehendersonmusic.com",
+    "href": "https://vb88.win",
+    "anchor": "VB88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "kylehendersonmusic.com",
+    "href": "https://ball88.to",
+    "anchor": "Ball88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "kylehendersonmusic.com",
+    "href": "https://x8.club",
+    "anchor": "X8 Club",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "kylehendersonmusic.com",
+    "href": "https://min88.com",
+    "anchor": "Min88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "kylehendersonmusic.com",
+    "href": "https://hd88.in",
+    "anchor": "HD88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "kylehendersonmusic.com",
+    "href": "https://3bet.so",
+    "anchor": "3Bet",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "respectablyfrench.com",
+    "href": "http://jili8998.live",
+    "anchor": "Jili8998",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "respectablyfrench.com",
+    "href": "http://bingoplusrewards.com",
+    "anchor": "Bingoplus",
+    "status": "request_failed",
+    "error": "timed out"
+  },
+  {
+    "src_domain": "respectablyfrench.com",
+    "href": "http://royalclub88a.com",
+    "anchor": "Royal Club",
+    "status": "request_failed",
+    "error": "timed out"
+  },
+  {
+    "src_domain": "respectablyfrench.com",
+    "href": "https://20betph.com",
+    "anchor": "20Bet",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "respectablyfrench.com",
+    "href": "https://energetika.us.com/",
+    "anchor": "X8 CLUB",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "respectablyfrench.com",
+    "href": "https://ball88.in/",
+    "anchor": "BALL88",
+    "status": "alive",
+    "code": 200
+  },
+  {
+    "src_domain": "respectablyfrench.com",
+    "href": "http://bet88asian.com",
+    "anchor": "Bet88",
+    "status": "request_failed",
+    "error": "timed out"
+  },
+  {
+    "src_domain": "respectablyfrench.com",
+    "href": "https://eebetph.com",
+    "anchor": "EEBET",
+    "status": "request_failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "src_domain": "sougicocoro.com",
+    "href": "http://pluralvote.com",
+    "anchor": "9Get",
+    "status": "request_failed",
+    "error": "timed out"
+  },
+  {
+    "src_domain": "sougicocoro.com",
+    "href": "http://martysammon.com",
+    "anchor": "Khelo24",
+    "status": "request_failed",
+    "error": "timed out"
+  },
+  {
+    "src_domain": "sougicocoro.com",
+    "href": "http://memoryjournaling.com",
+    "anchor": "JeetWin",
+    "status": "request_failed",
+    "error": "timed out"
+  },
+  {
+    "src_domain": "sougicocoro.com",
+    "href": "http://eebet77.org",
+    "anchor": "EEBET",
+    "status": "request_failed",
+    "error": "timed out"
+  },
+  {
+    "src_domain": "sougicocoro.com",
+    "href": "http://turk-post.net",
+    "anchor": "Crickex",
+    "status": "request_failed",
+    "error": "timed out"
+  }
+]

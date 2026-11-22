@@ -1,0 +1,52 @@
+import paramiko
+import json
+import sys
+
+VPS_HOST = "103.106.105.77"
+VPS_PORT = 22
+VPS_USER = "root"
+VPS_PASS = "q9icdLH1!*0B"
+
+remote_code = """
+import json, pymysql
+
+with open('/tmp/site_configs.json', 'r') as f:
+    configs = json.load(f)
+
+for c in configs:
+    db = c['db_name']
+    prefix = c['prefix']
+    domain = c['domain']
+    pid = c['page_on_front']
+    
+    conn = pymysql.connect(host='127.0.0.1', user='root', password='dc2fe6f2608cdc00', database=db)
+    cur = conn.cursor()
+    cur.execute(f"SELECT post_content FROM {prefix}posts WHERE ID=%s", (pid,))
+    row = cur.fetchone()
+    content = row[0] if row else ""
+    
+    # Check if literal backslash n exists in post_content
+    backslash_n_cnt = content.count('\\\\n')
+    
+    # Check total posts
+    cur.execute(f"SELECT count(*) FROM {prefix}posts")
+    posts_cnt = cur.fetchone()[0]
+    
+    print(f"{domain:25s} | posts_in_db={posts_cnt:3d} | literal_slash_n={backslash_n_cnt:4d}")
+    conn.close()
+"""
+
+ssh = paramiko.SSHClient()
+ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+ssh.connect(VPS_HOST, port=VPS_PORT, username=VPS_USER, password=VPS_PASS, timeout=15)
+
+sftp = ssh.open_sftp()
+with sftp.file('/tmp/check_all_sites_health.py', 'w') as f:
+    f.write(remote_code)
+sftp.close()
+
+stdin, stdout, stderr = ssh.exec_command('python3 /tmp/check_all_sites_health.py')
+sys.stdout.reconfigure(encoding='utf-8')
+print("STDOUT:\n", stdout.read().decode('utf-8', errors='ignore'))
+ssh.close()
+

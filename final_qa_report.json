@@ -1,0 +1,578 @@
+[
+  {
+    "domain": "aaidudec.org",
+    "url": "https://aaidudec.org/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "BU88",
+      "VB88"
+    ],
+    "network_links_found": [
+      "anthonyruivivar.net",
+      "bblatinamerica.com",
+      "conadecivil.com",
+      "facturatabasco.com"
+    ],
+    "external_brands_found": [
+      "ivibetguia.com",
+      "b2xbetbonusbr.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "anthonyruivivar.net",
+    "url": "https://anthonyruivivar.net/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "X8 Club",
+      "HD88"
+    ],
+    "network_links_found": [
+      "bblatinamerica.com",
+      "conadecivil.com",
+      "facturatabasco.com",
+      "greatdrivingchallenge.com"
+    ],
+    "external_brands_found": [
+      "ivibetreviews.com",
+      "b2xbetguia.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "bblatinamerica.com",
+    "url": "https://bblatinamerica.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "BU88",
+      "VB88"
+    ],
+    "network_links_found": [
+      "conadecivil.com",
+      "facturatabasco.com",
+      "greatdrivingchallenge.com",
+      "hkhoe.com"
+    ],
+    "external_brands_found": [
+      "ivibetguia.com",
+      "b2xbetreview.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "conadecivil.com",
+    "url": "https://conadecivil.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "X8 Club",
+      "HD88"
+    ],
+    "network_links_found": [
+      "facturatabasco.com",
+      "greatdrivingchallenge.com",
+      "hkhoe.com",
+      "sburlrecdept.com"
+    ],
+    "external_brands_found": [
+      "ivibetreviews.com",
+      "b2xbetbonusbr.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "facturatabasco.com",
+    "url": "https://facturatabasco.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "BU88",
+      "VB88"
+    ],
+    "network_links_found": [
+      "greatdrivingchallenge.com",
+      "hkhoe.com",
+      "sburlrecdept.com",
+      "shadowdance.org"
+    ],
+    "external_brands_found": [
+      "ivibetguia.com",
+      "b2xbetguia.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "greatdrivingchallenge.com",
+    "url": "https://greatdrivingchallenge.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "X8 Club",
+      "HD88"
+    ],
+    "network_links_found": [
+      "hkhoe.com",
+      "sburlrecdept.com",
+      "shadowdance.org",
+      "smvhighschool.in"
+    ],
+    "external_brands_found": [
+      "ivibetreviews.com",
+      "b2xbetreview.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "hkhoe.com",
+    "url": "https://hkhoe.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "BU88",
+      "VB88"
+    ],
+    "network_links_found": [
+      "sburlrecdept.com",
+      "shadowdance.org",
+      "smvhighschool.in",
+      "snow-design.com"
+    ],
+    "external_brands_found": [
+      "ivibetguia.com",
+      "b2xbetbonusbr.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "sburlrecdept.com",
+    "url": "https://sburlrecdept.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "X8 Club",
+      "HD88"
+    ],
+    "network_links_found": [
+      "shadowdance.org",
+      "smvhighschool.in",
+      "snow-design.com",
+      "stepl.org"
+    ],
+    "external_brands_found": [
+      "ivibetreviews.com",
+      "b2xbetguia.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "shadowdance.org",
+    "url": "https://shadowdance.org/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "BU88",
+      "VB88"
+    ],
+    "network_links_found": [
+      "smvhighschool.in",
+      "snow-design.com",
+      "stepl.org",
+      "suzanneloebl.com"
+    ],
+    "external_brands_found": [
+      "ivibetguia.com",
+      "b2xbetreview.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "smvhighschool.in",
+    "url": "https://smvhighschool.in/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "X8 Club",
+      "HD88"
+    ],
+    "network_links_found": [
+      "snow-design.com",
+      "stepl.org",
+      "suzanneloebl.com",
+      "thaiasiatoday.com"
+    ],
+    "external_brands_found": [
+      "ivibetreviews.com",
+      "b2xbetbonusbr.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "snow-design.com",
+    "url": "https://snow-design.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "BU88",
+      "VB88"
+    ],
+    "network_links_found": [
+      "stepl.org",
+      "suzanneloebl.com",
+      "thaiasiatoday.com",
+      "feshun.com"
+    ],
+    "external_brands_found": [
+      "ivibetguia.com",
+      "b2xbetguia.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "stepl.org",
+    "url": "https://stepl.org/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "X8 Club",
+      "HD88"
+    ],
+    "network_links_found": [
+      "suzanneloebl.com",
+      "thaiasiatoday.com",
+      "feshun.com",
+      "hellbenderpress.com"
+    ],
+    "external_brands_found": [
+      "ivibetreviews.com",
+      "b2xbetreview.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "suzanneloebl.com",
+    "url": "https://suzanneloebl.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "BU88",
+      "VB88"
+    ],
+    "network_links_found": [
+      "thaiasiatoday.com",
+      "feshun.com",
+      "hellbenderpress.com",
+      "innkeeperrockies.com"
+    ],
+    "external_brands_found": [
+      "ivibetguia.com",
+      "b2xbetbonusbr.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "thaiasiatoday.com",
+    "url": "https://thaiasiatoday.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "X8 Club",
+      "HD88"
+    ],
+    "network_links_found": [
+      "feshun.com",
+      "hellbenderpress.com",
+      "innkeeperrockies.com",
+      "rogalevich.org"
+    ],
+    "external_brands_found": [
+      "ivibetreviews.com",
+      "b2xbetguia.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "feshun.com",
+    "url": "https://feshun.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "BU88",
+      "VB88"
+    ],
+    "network_links_found": [
+      "hellbenderpress.com",
+      "innkeeperrockies.com",
+      "rogalevich.org",
+      "j-core.biz"
+    ],
+    "external_brands_found": [
+      "ivibetguia.com",
+      "b2xbetreview.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "hellbenderpress.com",
+    "url": "https://hellbenderpress.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "X8 Club",
+      "HD88"
+    ],
+    "network_links_found": [
+      "innkeeperrockies.com",
+      "rogalevich.org",
+      "j-core.biz",
+      "kvdevelopers.com"
+    ],
+    "external_brands_found": [
+      "ivibetreviews.com",
+      "b2xbetbonusbr.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "innkeeperrockies.com",
+    "url": "https://innkeeperrockies.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "BU88",
+      "VB88"
+    ],
+    "network_links_found": [
+      "rogalevich.org",
+      "j-core.biz",
+      "kvdevelopers.com",
+      "benscarpage.com"
+    ],
+    "external_brands_found": [
+      "ivibetguia.com",
+      "b2xbetguia.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "rogalevich.org",
+    "url": "https://rogalevich.org/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "X8 Club",
+      "HD88"
+    ],
+    "network_links_found": [
+      "j-core.biz",
+      "kvdevelopers.com",
+      "benscarpage.com",
+      "kylehendersonmusic.com"
+    ],
+    "external_brands_found": [
+      "ivibetreviews.com",
+      "b2xbetreview.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "j-core.biz",
+    "url": "https://j-core.biz/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "BU88",
+      "VB88"
+    ],
+    "network_links_found": [
+      "kvdevelopers.com",
+      "benscarpage.com",
+      "kylehendersonmusic.com",
+      "respectablyfrench.com"
+    ],
+    "external_brands_found": [
+      "ivibetguia.com",
+      "b2xbetbonusbr.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "kvdevelopers.com",
+    "url": "https://kvdevelopers.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "X8 Club",
+      "HD88"
+    ],
+    "network_links_found": [
+      "benscarpage.com",
+      "kylehendersonmusic.com",
+      "respectablyfrench.com",
+      "sougicocoro.com"
+    ],
+    "external_brands_found": [
+      "ivibetreviews.com",
+      "b2xbetguia.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "benscarpage.com",
+    "url": "https://benscarpage.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "BU88",
+      "VB88"
+    ],
+    "network_links_found": [
+      "kylehendersonmusic.com",
+      "respectablyfrench.com",
+      "sougicocoro.com",
+      "aaidudec.org"
+    ],
+    "external_brands_found": [
+      "ivibetguia.com",
+      "b2xbetreview.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "kylehendersonmusic.com",
+    "url": "https://kylehendersonmusic.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "X8 Club",
+      "HD88"
+    ],
+    "network_links_found": [
+      "respectablyfrench.com",
+      "sougicocoro.com",
+      "aaidudec.org",
+      "anthonyruivivar.net"
+    ],
+    "external_brands_found": [
+      "ivibetreviews.com",
+      "b2xbetbonusbr.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "respectablyfrench.com",
+    "url": "https://respectablyfrench.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "BU88",
+      "VB88"
+    ],
+    "network_links_found": [
+      "sougicocoro.com",
+      "aaidudec.org",
+      "anthonyruivivar.net",
+      "bblatinamerica.com"
+    ],
+    "external_brands_found": [
+      "ivibetguia.com",
+      "b2xbetguia.com",
+      "megaparibonusbr.com",
+      "freshcasinobonusbr.com",
+      "jetcasinobonusbr.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  },
+  {
+    "domain": "sougicocoro.com",
+    "url": "https://sougicocoro.com/",
+    "status_code": 200,
+    "menu_brands_found": [
+      "X8 Club",
+      "HD88"
+    ],
+    "network_links_found": [
+      "aaidudec.org",
+      "anthonyruivivar.net",
+      "bblatinamerica.com",
+      "conadecivil.com"
+    ],
+    "external_brands_found": [
+      "ivibetreviews.com",
+      "b2xbetreview.com",
+      "megapariguia.com",
+      "freshcasinoguia.com",
+      "jetcasinoguia.com"
+    ],
+    "dead_links_present": [],
+    "overall_pass": true
+  }
+]
