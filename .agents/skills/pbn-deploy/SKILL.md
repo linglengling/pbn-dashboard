@@ -57,6 +57,11 @@ Hệ thống PBN phân loại thành 2 môi trường hosting khác nhau, bắt 
    curl -I https://pbn.keodinh.net/
    ```
 
+5. **Đồng bộ Workspace Chung Cho Bot AI trên VPS**:
+   ```bash
+   cd /www/wwwroot/phn-manage.sites/src-github && python3 scripts/git_sync.py pull
+   ```
+
 ---
 
 ## Danh Sách Trắng (Whitelist) Của Chủ Hệ Thống - TUYỆT ĐỐI KHÔNG XÓA

@@ -19,6 +19,10 @@
   - Tab `/audit` mặc định lọc `ISSUES` (`Site Lỗi & Chặn Index`), tách riêng site khỏe (`SEO OK`).
   - `AuditTab.jsx` xử lý HTTP `401` (tự xóa `pbn_token` hết hạn & reload đăng nhập) và hiển thị chi tiết lỗi Mở Index.
   - Server `103.106.105.77` chạy tự động quét 3 ngày/lần qua `_audit_cron_daemon()` + OS crontab `0 3 */3 * *`. *(Không cài cron trên máy local Windows trừ khi chủ hệ thống yêu cầu).*
+- **Shared Bot Workspace trên Server `103.106.105.77` (`/www/wwwroot/phn-manage.sites/src-github`):**
+  - Thư mục này là workspace chung dành cho nhiều AI Bot (Hermes Agent, OpenClaw, Antigravity...) cùng truy cập và xử lý trực tiếp trên VPS.
+  - Đã cấu hình Git (`linglengling/pbn-dashboard`), `git_sync_config.json`, và `safe.directory`.
+  - **Quy tắc bắt buộc:** Mỗi lần đẩy/deploy bất kỳ thứ gì lên server hoặc hoàn tất push Git từ local, luôn phải pull tại thư mục này (`python scripts/git_sync.py pull-server` hoặc gọi tự động qua `scripts/git_sync.py push`) để workspace trên server luôn đồng bộ tức thì.
 
 ---
 
@@ -36,6 +40,7 @@
 ---
 
 ## 3. Nhật Ký Ngắn Các Mốc Gần Nhất
+- **2026-11-22:** Thiết lập và đồng bộ workspace dùng chung cho AI Bot tại `/www/wwwroot/phn-manage.sites/src-github` trên VPS `103.106.105.77`; tích hợp tính năng tự động `pull_server()` vào `scripts/git_sync.py`.
 - **2026-11-22:** Thiết lập `git_sync_config.json` (bảo vệ qua `.gitignore`), xây dựng tiện ích `scripts/git_sync.py`, tạo skill `pbn-git-sync` và tài liệu `huong-dan-dong-bo-git-memory.md` chuẩn hóa tự động pull trước / push sau khi thao tác code, plan, memory.
 - **2026-11-22:** Phục hồi MariaDB VPS 1 (`198.252.110.104`) & khôi phục `tk2.keodinh.net`; cài mới 3 site WP (`worldgiftednesscenter.org`, `thaiteqball.org`, `ijsra.org`) trên `103.106.105.77`; chuyển remote Git sang `linglengling/pbn-dashboard` và loại `*.db` khỏi Git.
 - **2026-11-21:** Xóa comment + mã hóa Base64 `mu-plugins/init.php`, deploy toàn bộ 1,221 site trên 11 server, bỏ link CDN `mu-plugins.zip`.

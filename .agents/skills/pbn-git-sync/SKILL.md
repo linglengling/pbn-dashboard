@@ -52,10 +52,7 @@ Ngay sau khi hoàn thành nhiệm vụ và kiểm tra hoạt động ổn địn
 ```bash
 python scripts/git_sync.py push "<Thông điệp commit rõ ràng>"
 ```
-Ví dụ:
-```bash
-python scripts/git_sync.py push "feat: add pbn-git-sync skill and update MEMORY.md"
-```
+*Lưu ý: Lệnh `push` trên máy local sẽ **tự động gọi SSH đồng bộ** (pull) luôn mã nguồn tại workspace chung trên VPS (`/www/wwwroot/phn-manage.sites/src-github`) để các bot AI khác (Hermes Agent, OpenClaw...) luôn có dữ liệu mới nhất.*
 
 ---
 
@@ -64,9 +61,10 @@ python scripts/git_sync.py push "feat: add pbn-git-sync skill and update MEMORY.
 | Mục đích | Lệnh thực thi |
 |---|---|
 | Kiểm tra trạng thái Git | `python scripts/git_sync.py status` |
-| Pull cập nhật mới nhất | `python scripts/git_sync.py pull` |
-| Stage, commit và push | `python scripts/git_sync.py push "Nội dung commit"` |
-| Cả Pull rồi Push luôn | `python scripts/git_sync.py sync "Nội dung commit"` |
+| Pull cập nhật mới nhất tại local | `python scripts/git_sync.py pull` |
+| Pull cập nhật tại workspace chung VPS | `python scripts/git_sync.py pull-server` |
+| Stage, commit, push và tự động pull VPS | `python scripts/git_sync.py push "Nội dung commit"` |
+| Cả Pull local rồi Push + pull VPS luôn | `python scripts/git_sync.py sync "Nội dung commit"` |
 
 ---
 

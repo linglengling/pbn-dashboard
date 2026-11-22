@@ -39,8 +39,16 @@ Hệ thống đã xây dựng sẵn script `scripts/git_sync.py` (sử dụng th
 |---|---|
 | `python scripts/git_sync.py status` | Xem trạng thái các file thay đổi tại local. |
 | `python scripts/git_sync.py pull` | Kéo các cập nhật mới nhất từ GitHub về máy. |
-| `python scripts/git_sync.py push "Ghi chú"` | Tự động `git add -A`, tạo commit và push lên `origin/main`. |
-| `python scripts/git_sync.py sync "Ghi chú"` | Thực hiện tuần tự `pull` trước, sau đó `push`. |
+| `python scripts/git_sync.py pull-server` | Kéo cập nhật tại workspace chung trên VPS (`/www/wwwroot/phn-manage.sites/src-github`). |
+| `python scripts/git_sync.py push "Ghi chú"` | Tự động `git add -A`, tạo commit, push lên `origin/main` và tự động kích hoạt pull trên server VPS. |
+| `python scripts/git_sync.py sync "Ghi chú"` | Thực hiện tuần tự `pull` local trước, sau đó `push` và đồng bộ server VPS. |
+
+---
+
+## 3. Workspace Dùng Chung Cho Nhiều AI Bot Trên VPS
+- Đường dẫn: `/www/wwwroot/phn-manage.sites/src-github` (Server `103.106.105.77`).
+- Mục đích: Nơi các AI Agent (Hermes Agent, OpenClaw, cron daemon...) cùng đọc và thực thi tác vụ trực tiếp trên server.
+- Tự động đồng bộ: Bất kỳ lúc nào thực hiện `push` từ máy tính cá nhân hoặc deploy mã nguồn lên server, script sẽ tự động gọi SSH để pull code mới nhất vào thư mục này.
 
 ---
 

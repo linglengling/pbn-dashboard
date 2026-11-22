@@ -103,7 +103,36 @@ def pull():
     return res
 
 
-def push(message: str):
+def pull_server():
+    """Ket noi SSH toi VPS 103.106.105.77 va pull tai workspace chung /www/wwwroot/phn-manage.sites/src-github."""
+    # Neu dang chay truc tiep tren server tai chinh thu muc nay thi khong can SSH
+    if os.path.exists("/www/wwwroot/phn-manage.sites/src-github"):
+        if str(ROOT_DIR) == "/www/wwwroot/phn-manage.sites/src-github":
+            return pull()
+
+    print("[INFO] Dong bo workspace chung tren server 103.106.105.77 (/www/wwwroot/phn-manage.sites/src-github)...")
+    try:
+        import paramiko
+        ssh = paramiko.SSHClient()
+        ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+        ssh.connect("103.106.105.77", username="root", password="q9icdLH1!*0B", timeout=15)
+        cmd = "cd /www/wwwroot/phn-manage.sites/src-github && python3 scripts/git_sync.py pull"
+        stdin, stdout, stderr = ssh.exec_command(cmd)
+        out = stdout.read().decode("utf-8", errors="ignore").strip()
+        err = stderr.read().decode("utf-8", errors="ignore").strip()
+        ssh.close()
+        if out:
+            print(f"[SERVER OUT] {out}")
+        if err and "error" in err.lower():
+            print(f"[SERVER ERR] {err}")
+        print("[SUCCESS] Da pull thanh cong tai workspace server!")
+        return 0
+    except Exception as e:
+        print(f"[WARN] Khong the tu dong pull server qua SSH (bo qua neu offline hoac da chay truc tiep): {e}")
+        return 1
+
+
+def push(message: str, sync_server_after: bool = True):
     """Stage tat ca file hop le, commit (neu co thay doi) va push unpushed commits len GitHub."""
     ensure_auth()
     if not message:
@@ -127,19 +156,23 @@ def push(message: str):
         res = run_git(["push", "origin", "main"])
         if res == 0:
             print("[SUCCESS] Dong bo len GitHub thanh cong!")
+            if sync_server_after:
+                pull_server()
         return res
     else:
         print("[INFO] Repository da dong bo hoan toan voi origin/main.")
+        if sync_server_after:
+            pull_server()
         return 0
 
 
 def sync(message: str):
-    """Thuc hien ca 2 buoc: pull truoc, sau do push cac thay doi."""
+    """Thuc hien ca 2 buoc: pull truoc, sau do push cac thay doi va cap nhat server."""
     pull_res = pull()
     if pull_res != 0:
         print("[WARN] Git pull gap van de, hay kiem tra conflict truoc khi push.")
         return pull_res
-    return push(message)
+    return push(message, sync_server_after=True)
 
 
 def status():
@@ -157,10 +190,12 @@ def main():
         sys.exit(push(msg))
     elif action == "sync":
         sys.exit(sync(msg))
+    elif action == "pull-server":
+        sys.exit(pull_server())
     elif action == "status":
         sys.exit(status())
     else:
-        print(f"Usage: python {Path(__file__).name} [pull|push|sync|status] [commit_message]")
+        print(f"Usage: python {Path(__file__).name} [pull|push|sync|pull-server|status] [commit_message]")
         sys.exit(1)
 
 
