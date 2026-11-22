@@ -59,3 +59,9 @@ The user/owner has strictly defined that the following files, users, and mechani
 
 6. **Skill & Plan Documentation Archive (`PBN-Dashboard-V2/Skill-Description/`)**:
    - Whenever creating or updating a skill in `.agents/skills/` OR proposing/finalizing a new plan for the user, ALWAYS also write a clear, human-readable Vietnamese `.md` document into `PBN-Dashboard-V2/Skill-Description/` (e.g., `huong-dan-cai-dat-site-wp.md`, `plan-...md`) so the user can review and archive all plans and skills in one place.
+
+7. **Git Sync & Shared Memory (`MEMORY.md`)**:
+   - **Before** starting edits to source code, skills, plans, or shared memory: run `git fetch` / `git pull --rebase` from `origin/main` (`https://github.com/linglengling/pbn-dashboard.git`) to ensure the workspace is up to date.
+   - **After** completing shared changes (source code, skills, plans in `PBN-Dashboard-V2/Skill-Description/`, or updates to `MEMORY.md`): commit and `git push origin main`.
+   - **Shared operational memory (`MEMORY.md`)**: Keep `MEMORY.md` at the repository root concise and up to date with active/pending tasks (e.g., pending Cloudflare NS transfers, ongoing plans, recent server fixes, canonical file sources) so all agents/machines share the same context.
+   - **NEVER commit** `.db` / `.sqlite*` files, API tokens, or raw credentials into Git.
