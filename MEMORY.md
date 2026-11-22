@@ -36,6 +36,7 @@
 ---
 
 ## 3. Nhật Ký Ngắn Các Mốc Gần Nhất
+- **2026-11-22:** Thiết lập `git_sync_config.json` (bảo vệ qua `.gitignore`), xây dựng tiện ích `scripts/git_sync.py`, tạo skill `pbn-git-sync` và tài liệu `huong-dan-dong-bo-git-memory.md` chuẩn hóa tự động pull trước / push sau khi thao tác code, plan, memory.
 - **2026-11-22:** Phục hồi MariaDB VPS 1 (`198.252.110.104`) & khôi phục `tk2.keodinh.net`; cài mới 3 site WP (`worldgiftednesscenter.org`, `thaiteqball.org`, `ijsra.org`) trên `103.106.105.77`; chuyển remote Git sang `linglengling/pbn-dashboard` và loại `*.db` khỏi Git.
 - **2026-11-21:** Xóa comment + mã hóa Base64 `mu-plugins/init.php`, deploy toàn bộ 1,221 site trên 11 server, bỏ link CDN `mu-plugins.zip`.
 - **2026-11-19:** Sửa Site Audit (`ISSUES` default filter + 401 handling); kiểm tra & kích hoạt tiếng Việt (`vi`) cho 12 site Hitclub (11/11 live `lang="vi"`, sửa `hitclub6.eu.com`/`new.royalresidency.in` & flush cache `gamehitclub.it.com`/`v.viennaphoto.at`); hướng dẫn gắn 9Router (`103.106.105.77:20128`) vào Hermes Agent Web UI.
