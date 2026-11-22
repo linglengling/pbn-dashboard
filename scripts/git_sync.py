@@ -104,7 +104,7 @@ def pull():
 
 
 def push(message: str):
-    """Stage tat ca file hop le, commit va push len GitHub."""
+    """Stage tat ca file hop le, commit (neu co thay doi) va push unpushed commits len GitHub."""
     ensure_auth()
     if not message:
         message = "Update source code, skills, plans and shared memory"
@@ -113,18 +113,24 @@ def push(message: str):
     run_git(["add", "-A"])
 
     status_out = run_git(["status", "--porcelain"], capture=True)
-    if not status_out:
-        print("[INFO] Khong co thay doi nao can commit.")
+    if status_out:
+        print(f"[INFO] Commit voi thong diep: '{message}'")
+        run_git(["commit", "-m", message])
+    else:
+        print("[INFO] Khong co thay doi unstaged nao can commit moi.")
+
+    # Kiem tra xem co commit nao chua push len remote khong
+    unpushed = run_git(["log", "@{u}..HEAD", "--oneline"], capture=True)
+    if unpushed:
+        print(f"[INFO] Phat hien cac commit chua push:\n{unpushed}")
+        print("[INFO] Dang push len origin/main...")
+        res = run_git(["push", "origin", "main"])
+        if res == 0:
+            print("[SUCCESS] Dong bo len GitHub thanh cong!")
+        return res
+    else:
+        print("[INFO] Repository da dong bo hoan toan voi origin/main.")
         return 0
-
-    print(f"[INFO] Commit voi thong diep: '{message}'")
-    run_git(["commit", "-m", message])
-
-    print("[INFO] Dang push len origin/main...")
-    res = run_git(["push", "origin", "main"])
-    if res == 0:
-        print("[SUCCESS] Dong bo len GitHub thanh cong!")
-    return res
 
 
 def sync(message: str):
