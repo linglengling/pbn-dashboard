@@ -32,7 +32,6 @@
   - `vb888.love` (đã cài trên `172.96.184.18`): chờ đổi NS về `grant.ns.cloudflare.com` & `jen.ns.cloudflare.com`.
 - **Domain lỗi DNS cần kiểm tra:** `hitclubx.app` (chưa thấy zone trong 2 tài khoản CF; folder WP trên VPS 6 & VPS 8 đã có sẵn gói `vi`).
 - **Plan đang chờ duyệt triển khai:**
-  - `PBN-Dashboard-V2/Skill-Description/plan-cai-dat-mausbot-docker-aapanel.md` (Kế hoạch cài đặt Mausbot Docker trên VPS `103.106.105.77` tích hợp aaPanel OpenLiteSpeed Reverse Proxy — chờ user xác nhận domain/email).
   - `PBN-Dashboard-V2/Skill-Description/plan-bio-backlink-entity.md` (Bio Backlink Entity tự động trên PBN — chờ chủ hệ thống duyệt & bổ sung ý tưởng).
 - **VPS 1 (`198.252.110.104`) — Dọn dự phòng sau phục hồi MariaDB (`2026-11-22`):**
   - Đã phục hồi sạch MariaDB 10.11.10 (`102` DBs, `tk2.keodinh.net` Matomo 284 sites / 521k+ visits hoạt động bình thường, trống `56G`).
@@ -41,6 +40,7 @@
 ---
 
 ## 3. Nhật Ký Ngắn Các Mốc Gần Nhất
+- **2026-11-23:** Cài đặt hoàn tất OpenMausbot (`mausbot` trên PM2, port `8799`) tại `https://team.kiencanh.com`, OpenLiteSpeed reverse proxy (hỗ trợ WebSocket), tự động tạo bản ghi DNS Cloudflare A (Proxied) và cấp chứng chỉ SSL. Ghép nối thành công và sẵn sàng đồng bộ workspace "Make my home".
 - **2026-11-22:** Thiết lập và đồng bộ workspace dùng chung cho AI Bot tại `/www/wwwroot/phn-manage.sites/src-github` trên VPS `103.106.105.77`; tích hợp tính năng tự động `pull_server()` vào `scripts/git_sync.py`.
 - **2026-11-22:** Thiết lập `git_sync_config.json` (bảo vệ qua `.gitignore`), xây dựng tiện ích `scripts/git_sync.py`, tạo skill `pbn-git-sync` và tài liệu `huong-dan-dong-bo-git-memory.md` chuẩn hóa tự động pull trước / push sau khi thao tác code, plan, memory.
 - **2026-11-22:** Phục hồi MariaDB VPS 1 (`198.252.110.104`) & khôi phục `tk2.keodinh.net`; cài mới 3 site WP (`worldgiftednesscenter.org`, `thaiteqball.org`, `ijsra.org`) trên `103.106.105.77`; chuyển remote Git sang `linglengling/pbn-dashboard` và loại `*.db` khỏi Git.
