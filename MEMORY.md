@@ -32,6 +32,7 @@
   - `vb888.love` (đã cài trên `172.96.184.18`): chờ đổi NS về `grant.ns.cloudflare.com` & `jen.ns.cloudflare.com`.
 - **Domain lỗi DNS cần kiểm tra:** `hitclubx.app` (chưa thấy zone trong 2 tài khoản CF; folder WP trên VPS 6 & VPS 8 đã có sẵn gói `vi`).
 - **Plan đang chờ duyệt triển khai:**
+  - `PBN-Dashboard-V2/Skill-Description/plan-cai-dat-mausbot-docker-aapanel.md` (Kế hoạch cài đặt Mausbot Docker trên VPS `103.106.105.77` tích hợp aaPanel OpenLiteSpeed Reverse Proxy — chờ user xác nhận domain/email).
   - `PBN-Dashboard-V2/Skill-Description/plan-bio-backlink-entity.md` (Bio Backlink Entity tự động trên PBN — chờ chủ hệ thống duyệt & bổ sung ý tưởng).
 - **VPS 1 (`198.252.110.104`) — Dọn dự phòng sau phục hồi MariaDB (`2026-11-22`):**
   - Đã phục hồi sạch MariaDB 10.11.10 (`102` DBs, `tk2.keodinh.net` Matomo 284 sites / 521k+ visits hoạt động bình thường, trống `56G`).
