@@ -40,7 +40,7 @@
 ---
 
 ## 3. Nhật Ký Ngắn Các Mốc Gần Nhất
-- **2026-11-23:** Cài đặt hoàn tất OpenMausbot (`mausbot` trên PM2, port `8799`) tại `https://team.kiencanh.com`, OpenLiteSpeed reverse proxy (hỗ trợ WebSocket), tự động tạo bản ghi DNS Cloudflare A (Proxied) và cấp chứng chỉ SSL. Đã cấp quyền admin toàn quyền cho email `vnae88888886@gmail.com` để đăng nhập OTP tại `/pair`; thiết bị Chrome on Windows đã ghép nối thành công.
+- **2026-11-23:** Cài đặt hoàn tất OpenMausbot (`mausbot` trên PM2, port `8799`) tại `https://team.kiencanh.com`, OpenLiteSpeed reverse proxy (hỗ trợ WebSocket), tự động tạo bản ghi DNS Cloudflare A (Proxied) và cấp chứng chỉ SSL. Đã cấp quyền admin cho email `vnae88888886@gmail.com` tại `/pair`. Đã cấu hình và kết nối thành công Hermes Agent với 9Router AI Gateway nội bộ (`http://127.0.0.1:20128/v1`, model `9router-1`, 256k context); test phản hồi thành công và restart PM2 `hermes-web` + `mausbot`.
 - **2026-11-22:** Thiết lập và đồng bộ workspace dùng chung cho AI Bot tại `/www/wwwroot/phn-manage.sites/src-github` trên VPS `103.106.105.77`; tích hợp tính năng tự động `pull_server()` vào `scripts/git_sync.py`.
 - **2026-11-22:** Thiết lập `git_sync_config.json` (bảo vệ qua `.gitignore`), xây dựng tiện ích `scripts/git_sync.py`, tạo skill `pbn-git-sync` và tài liệu `huong-dan-dong-bo-git-memory.md` chuẩn hóa tự động pull trước / push sau khi thao tác code, plan, memory.
 - **2026-11-22:** Phục hồi MariaDB VPS 1 (`198.252.110.104`) & khôi phục `tk2.keodinh.net`; cài mới 3 site WP (`worldgiftednesscenter.org`, `thaiteqball.org`, `ijsra.org`) trên `103.106.105.77`; chuyển remote Git sang `linglengling/pbn-dashboard` và loại `*.db` khỏi Git.
