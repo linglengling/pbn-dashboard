@@ -13,7 +13,10 @@
 | **1. Server Master (`103.106.105.77`)**<br>Script `pbn_deep_audit.py --auto-schedule` | `01:00` giờ Việt Nam<br>(`22:00` giờ Dubai tối hôm trước)<br>*(Crontab `0 18 * * *` UTC, cổng 5 ngày thực `today_vn >= next_due_date`, bắt đầu `2026-11-26`)* | Chạy **24/7 độc lập** dù máy tính cá nhân tắt: quét 4 lớp toàn bộ **11 server** + toàn bộ domain trong `pbn_matrix.db`, đồng thời gọi AI nội bộ (`9router-1` tại `127.0.0.1:20128`) phân loại bài mới/nghi vấn | • Đồng bộ trực tiếp vào `pbn_matrix.db` (`site_audits`, `sites`, `LAST_AUDIT_REPORT`, `LAST_AUDIT_RUN`)<br>• Tạo `audit_reports/latest_ai_packet.json` (`ai_reviewed: false`) & cập nhật `next_due_date = today + 5 ngày` |
 | **2. OpenMausBot (AI Review & Báo cáo)**<br>Automation `PBN Tổng hợp Report...` | `05:00` giờ Việt Nam<br>(`02:00` giờ Dubai)<br>*(Lịch `0 5 */5 * *` giờ VN)* | Đọc `latest_ai_packet.json` từ `103.106.105.77`, rà soát sâu bài mới/mu-plugin/outlink mới/lỗi bất thường, đồng bộ bổ sung nếu cần và đánh dấu `ai_reviewed: true` | • Lưu `reports/pbn_report_<YYYY-MM-DD>.md`<br>• Gửi bản báo cáo tiếng Việt ngắn gọn vào khung chat |
 
-> **Xử lý khi máy tính cá nhân tắt:** Toàn bộ quá trình quét 11 server, gọi 9Router AI và cập nhật `https://pbn.keodinh.net/audit` đã chạy hoàn tất 24/7 ngay trên `103.106.105.77`. Đêm không mở máy tính chỉ bỏ qua bước tóm tắt chat lúc `05:00` VN — dữ liệu trên `/audit` và gói `latest_ai_packet.json` vẫn nguyên vẹn để AI đọc lại bất kỳ lúc nào.
+> **Lưu ý về độ lệch lịch qua tháng mới (`*/5` vs 5 ngày thực):**
+> - Trong các ngày `26/11 → 01/12 → 06/12 → 11/12 → 16/12 → 21/12 → 26/12 → 31/12`, Server Master (`today + 5 ngày`) và lịch gửi báo cáo (`0 5 */5 * *` — ngày `1, 6, 11, 16, 21, 26, 31`) **trùng khớp 100%** (quét lúc `01:00`, gửi báo cáo lúc `05:00` cùng ngày).
+> - Sang tháng 1, do `*/5` reset về ngày `01/01` trong khi Server Master chạy đúng 5 ngày thực vào **`05/01`**, đợt báo cáo ngày `01/01` sẽ thấy `ai_reviewed = true` nên **tự bỏ qua không báo trùng**, và đợt `06/01` sẽ đọc gói của đêm `05/01` (lệch sau 1 ngày, trong khi `/audit` vẫn luôn cập nhật ngay lúc `01:00` sáng `05/01`).
+> - **Khi máy tính cá nhân tắt:** Toàn bộ quá trình quét 11 server, gọi 9Router AI và cập nhật `https://pbn.keodinh.net/audit` vẫn chạy hoàn tất 24/7 trên `103.106.105.77`; gói `latest_ai_packet.json` được giữ nguyên để AI đọc lại bất kỳ lúc nào.
 
 ---
 
@@ -55,23 +58,24 @@
 - **Từ giao diện live:** thẻ `<meta name="robots" content="*noindex*">`, header `X-Robots-Tag: noindex`, `/robots.txt` chứa `Disallow: /`.
 - **Từ WordPress DB & mã nguồn (qua SSH):** `wp_options.blog_public = 0` hoặc file `robots.txt` vật lý `Disallow: /`.
 - Site hoạt động tốt nhưng chặn index: đặt `is_noindex = 1`, `error_type = 'NOINDEX'`.
+- *(Lưu ý thống kê `/audit`: `noindex` đếm tất cả site có `is_noindex = 1`, bao gồm cả một số site vừa bị lỗi khác vừa bật noindex; vì vậy `healthy + (chỉ NOINDEX) + errors = total_audited`.)*
 
 ### Lớp 4: Phát hiện Bài Viết Lạ, Admin Lạ & Mã Độc
 - **Bài viết / Trang bất thường (last 6 days):**
   - Liệt kê các bài `post_status = 'publish'` (`post` / `page`) mới đăng hoặc mới sửa trong 6 ngày gần nhất; kiểm tra tác giả lạ, thẻ `<script>`, `<iframe>`, CSS ẩn, và phân tích ngữ nghĩa qua **9Router AI (`9router-1`)** → gắn cờ `WP_SUSPECT_POST` nếu phát hiện spam ngoại lai.
   - Theo dõi **Outbound Links** mới phát sinh trên trang chủ so với `audit_reports/outbound_baseline.json`.
-- **Tài khoản Admin lạ (`WP_STRANGE_ADMIN`):** kiểm tra `wp_users` quyền `administrator` ngoài whitelist (`klao`, `ad_official`, `owen`, `piel`, `yura`, `admin`).
+- **Tài khoản Admin lạ (`WP_STRANGE_ADMIN`):** kiểm tra `wp_users` quyền `administrator` ngoài whitelist (`klao`, `ad_official`, `owen`, `piel`, `yura`, `admin`) có dấu hiệu backdoor (`_<hex>`) hoặc mới tạo trong 14 ngày gần nhất.
 - **Mã độc ngoại lai (`MALWARE_DETECTED`, tuân thủ Whitelist chủ hệ thống):**
   - Quét `flux-wrapper-dex`, `SC_TH_BEGIN` trong `functions.php`, `SCOCV:` / `.wp-object-cache-` trong `object-cache.php` / `advanced-cache.php`, thư mục `.sc_*` / `.gk_*`, file `[0-9a-f]{8}.zip` và liệt kê `mu-plugins/*.php` ngoài whitelist.
-  - **Tuyệt đối giữ nguyên (Whitelist):** user `klao`, `ad_official`, `owen`, `piel`, `yura`, `admin`; `wp-content/mu-plugins/init.php`, `wp-seo-rank-math.php`, `p-manager.php`, `p-manager-u.php`, `restrict-plugin-activation.php`, `force-plugins.php`.
+  - **Tuyệt đối giữ nguyên (Whitelist):** user `klao`, `ad_official`, `owen`, `piel`, `yura`, `admin`; `wp-content/mu-plugins/init.php`, `wp-seo-rank-math.php`, `p-manager.php`, `p-manager-u.php`, `pbn-manager.php`, `restrict-plugin-activation.php`, `force-plugins.php`, `aios-firewall-loader.php`.
 
 ---
 
 ## 4. Lệnh Chạy & Kiểm Thử Thủ Công
 
 ```bash
-# Kiểm thử an toàn trên 1-2 server (Read-Only, không sửa DB production hay lịch)
-python3 /www/wwwroot/pbn-management2.keodinh.net/pbn_deep_audit.py --dry-run-server 35,2
+# Kiểm thử an toàn trên 1-2 server hoặc cả 11 server (Read-Only, không sửa DB production hay lịch)
+python3 /www/wwwroot/pbn-management2.keodinh.net/pbn_deep_audit.py --dry-run-server 1,2,3,4,5,6,7,8,33,34,35
 
 # Chạy tự động theo cổng 5 ngày thực (crontab 01:00 VN)
 python3 /www/wwwroot/pbn-management2.keodinh.net/pbn_deep_audit.py --auto-schedule
