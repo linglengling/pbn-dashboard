@@ -26,6 +26,10 @@ yarn-error.log*
 *.sqlite-shm
 *.sqlite-wal
 
+# Runtime audit reports & state
+reports/
+audit_reports/
+
 # Local Git Sync & Secrets
 git_sync_config.json
 github_token.json

@@ -15,10 +15,13 @@
 - **Dual Manager Rule (`p-manager.php` vs `p-manager-u.php`):**
   - VPS aaPanel: dùng `mu-plugins/p-manager.php` (Base64).
   - cPanel CloudLinux: dùng `mu-plugins/p-manager-u.php` (Plain PHP ẩn danh) và xóa `p-manager.php`.
-- **Site Audit (`PBN-Dashboard-V2`):**
+- **Site Audit (`PBN-Dashboard-V2` — Hybrid 24/7 Server + AI):**
   - Tab `/audit` mặc định lọc `ISSUES` (`Site Lỗi & Chặn Index`), tách riêng site khỏe (`SEO OK`).
   - `AuditTab.jsx` xử lý HTTP `401` (tự xóa `pbn_token` hết hạn & reload đăng nhập) và hiển thị chi tiết lỗi Mở Index.
-  - Server `103.106.105.77` chạy tự động quét 3 ngày/lần qua `_audit_cron_daemon()` + OS crontab `0 3 */3 * *`. *(Không cài cron trên máy local Windows trừ khi chủ hệ thống yêu cầu).*
+  - **Kiến trúc kiểm tra định kỳ 5 ngày thực (Read-Only):**
+    - Trên Server Master (`103.106.105.77`), đã tắt daemon nội bộ (`AUTO_AUDIT_ENABLED='0'`) và chạy 1 crontab duy nhất lúc `01:00` giờ VN (`0 18 * * *` UTC) gọi `/www/wwwroot/pbn-management2.keodinh.net/pbn_deep_audit.py --auto-schedule` (cổng 5 ngày thực `today_vn >= next_due_date`, bắt đầu `2026-11-26`).
+    - Script tự quét 4 lớp toàn bộ 11 server + `pbn_matrix.db`, gọi AI nội bộ (`9router-1` tại `127.0.0.1:20128`) phân loại bài mới/nghi vấn, đồng bộ trực tiếp lên `https://pbn.keodinh.net/audit` và xuất `audit_reports/latest_ai_packet.json`.
+    - Lúc `05:00` giờ VN (`02:00` Dubai, `0 5 */5 * *`), automation OpenMausBot đọc `latest_ai_packet.json` để rà soát bổ sung và gửi báo cáo tổng hợp tiếng Việt. *(Chi tiết: `PBN-Dashboard-V2/Skill-Description/plan-check-suc-khoe-pbn-5-ngay.md`.)*
 - **Shared Bot Workspace trên Server `103.106.105.77` (`/www/wwwroot/phn-manage.sites/src-github`):**
   - Thư mục này là workspace chung dành cho nhiều AI Bot (Hermes Agent, OpenClaw, Antigravity...) cùng truy cập và xử lý trực tiếp trên VPS.
   - Đã cấu hình Git (`linglengling/pbn-dashboard`), `git_sync_config.json`, và `safe.directory`.
@@ -40,6 +43,7 @@
 ---
 
 ## 3. Nhật Ký Ngắn Các Mốc Gần Nhất
+- **2026-11-24:** Triển khai kiến trúc **Hybrid 24/7 Server + AI** kiểm tra sức khỏe toàn hệ thống PBN (5 ngày/lần, Read-Only): xây dựng `scripts/pbn_deep_audit.py` chạy trực tiếp trên `103.106.105.77` (quét 11 server, tích hợp `9router-1`, đồng bộ `/audit`), chuyển lịch OpenMausBot sang 1 automation báo cáo AI (`05:00` VN) và tắt các batch cũ.
 - **2026-11-23:** Cài đặt hoàn tất OpenMausbot (`mausbot` trên PM2, port `8799`) tại `https://team.kiencanh.com`, OpenLiteSpeed reverse proxy (hỗ trợ WebSocket), tự động tạo bản ghi DNS Cloudflare A (Proxied) và cấp chứng chỉ SSL. Đã cấp quyền admin cho email `vnae88888886@gmail.com` tại `/pair`. Đã cấu hình và kết nối thành công Hermes Agent với 9Router AI Gateway nội bộ (`http://127.0.0.1:20128/v1`, model `9router-1`, 256k context); test phản hồi thành công và restart PM2 `hermes-web` + `mausbot`.
 - **2026-11-22:** Thiết lập và đồng bộ workspace dùng chung cho AI Bot tại `/www/wwwroot/phn-manage.sites/src-github` trên VPS `103.106.105.77`; tích hợp tính năng tự động `pull_server()` vào `scripts/git_sync.py`.
 - **2026-11-22:** Thiết lập `git_sync_config.json` (bảo vệ qua `.gitignore`), xây dựng tiện ích `scripts/git_sync.py`, tạo skill `pbn-git-sync` và tài liệu `huong-dan-dong-bo-git-memory.md` chuẩn hóa tự động pull trước / push sau khi thao tác code, plan, memory.

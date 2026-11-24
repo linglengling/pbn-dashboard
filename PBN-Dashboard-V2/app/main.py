@@ -105,8 +105,8 @@ def _audit_cron_daemon():
                 else:
                     try:
                         last_run_dt = datetime.datetime.strptime(last_run_str, "%Y-%m-%d %H:%M:%S")
-                        # Default interval: 3 days (259200 seconds)
-                        if (datetime.datetime.now() - last_run_dt).total_seconds() >= 3 * 86400:
+                        # Default interval: 5 days (432000 seconds)
+                        if (datetime.datetime.now() - last_run_dt).total_seconds() >= 5 * 86400:
                             should_run = True
                     except Exception:
                         should_run = True

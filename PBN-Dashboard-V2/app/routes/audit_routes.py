@@ -265,7 +265,7 @@ def trigger_manual_system_audit(background_tasks: BackgroundTasks, current_user:
 @router.post("/run-scheduled-cron")
 def run_scheduled_cron(request: Request, background_tasks: BackgroundTasks):
     """
-    Triggered by system crontab (e.g. 0 3 */3 * *) or internal scheduler.
+    Triggered by system crontab (e.g. 0 18 * * * (VN days 1,6,11,16,21,26,31)) or internal scheduler.
     Performs full site error check.
     """
     client_ip = request.client.host if request.client else ""
